@@ -5,7 +5,6 @@ require "logstash/util"
 class LogStash::Codecs::EDNLines < LogStash::Codecs::Base
   config_name "edn_lines"
 
-  milestone 1
 
   def register
     require "edn"
